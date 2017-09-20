@@ -4,17 +4,12 @@ Food Master aims to use  **personalization** to improve restaurant search and re
 
 Introduction
 -------------
-> - This is an interactive web page(HTML/JavaScript) for users to search restaurant, update preference and view recommended restaurants.
-
-> - Developed a web service using (Java servlet, REST API) to fetch restaurant data from **Yelp API**.
-
-> - Database: MySQL to store user preference and restaurant information.
-
-> -	Designed and developed a **filter and sorting algorithm** and matched similar restaurants. 
-
->- Uesed Ajax to communicate between server and client for more efficient content loading. 
-
-> - Tested the web service with unit tests(JUnit).
+Food Master: Java Web Service Development–Restaurant Search and Recommendation Engine
+->	Developed an interactive web page(HTML/CSS/Javascript) utilizing AJAX technology for users to search restaurant, update preference and view recommended restaurants.
+->	Developed a web service using (Java servlet, REST API) to fetch restaurant data from Yelp API.
+->	Utilized relational and NoSQL  databases to store user preference and restaurant information.
+->	Designed algorithms (content-based recommendation) to implement restaurant recommendation based on search history and favorite records  and tested the web service with unit test.
+->	Deployed server side to Amazon EC2 to handle 150 QPS tested by Apache JMeter.
 
 
 
